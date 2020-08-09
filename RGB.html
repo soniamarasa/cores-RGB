@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+    <link rel="stylesheet" href="rgb-style.css">
+</head>
+
+<body>
+
+    <div id="principal">
+
+        <h1>CORES - RGB</h1>
+
+        <div id="container">
+
+            <div id="form">
+                <form>
+                    <p> <label>(R) Vermelho: </label>
+                        <span class="inputrgb"> <input id="rgb1" type="range" min="0" max="255" value="0">
+                            <input class="inputtext" id="valuergb1" type="text" disabled=""></span>
+                    </p>
+                    <p> <label>(G) Verde: </label>
+                        <span class="inputrgb"> <input id="rgb2" type="range" min="0" max="255" value="0">
+                            <input class="inputtext" id="valuergb2" type="text" disabled=""> </span>
+                    </p>
+                    <p> <label id="cu">(A) Azul: </label>
+                        <span class="inputrgb"> <input id="rgb3" type="range" min="0" max="255" value="0">
+                            <input class="inputtext" id="valuergb3" type="text" disabled=""></span>
+                    </p>
+
+
+                    <div id="resultado">
+                        <div id="corresultado"> </div>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="rgb-script.js"> </script>
+</body>
+
+</html>
